@@ -48,7 +48,8 @@ h4{
 .cs-slider .carousel-caption h3{
     color:black;
 }
-h1,h2,h3,h4,h5,h6,p,div,body{
+h1,h2,h3,h4,h5,h6,p,div,body
+{
     font-family: var(--base-font);
 }
 .cs-slider .carousel-caption p{
@@ -128,13 +129,16 @@ h1,h2,h3,h4,h5,h6,p,div,body{
     align-items: center;
     padding: 20px;
 }
+.footer p{
+    color: var(--base);
+}
 input[type="email"]
 {
     font-size: 16px;
     padding: 9px;
     border: none;
     width: 70%;
-    height: 64px;
+    height: 45px;
 }
 
 .icons
@@ -142,6 +146,10 @@ input[type="email"]
     color: #F3EAD8;
     display: flex;
     gap: 20px;
+}
+
+.media{
+    font-size: 25px;
 }
 .icons i:hover{
     font-size: 24px;
@@ -225,27 +233,6 @@ input[type="email"]
     justify-content: space-between;
     z-index: 1;
 }
-
-/* @media(max-width:768px)
-{
-    .cs-navbar-copy{
-        display: flex;
-    }
-} */
-/* button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: transparent;
-  border: none;
-  font-size: 2rem;
-  cursor: pointer;
-} */
- /* .carousel-caption
- {
-   display: flex;
-   align-items: center;
- } */
  .carousel-caption h2
  {
     font-family: "Clicker Script";
@@ -256,11 +243,11 @@ input[type="email"]
      color: black;
 }
 
- .carousel-caption{
+ /* .carousel-caption{
     width: 80%;
-    text-align: center;
+    text-align: left;
     top: 0%;
- }
+ } */
  .header-bottom
  {
     background-color: black;
@@ -279,12 +266,12 @@ input[type="email"]
     font-weight: 500;
     font-size: 16px;
  }
- .footers
+ /* .footers
  {
 
     color: #BBB9B5;
     
- }
+ } */
  .footer-title ul {
     list-style: none;
     color: #BBB9B5;
@@ -300,4 +287,12 @@ input[type="email"]
  }
  .black{
     background-color: #171613;
+    color: #BBB9B5;
+  
  }
+#text {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translateX(-20%);
+}
