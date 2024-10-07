@@ -1,0 +1,126 @@
+.cs-rel
+{
+    position: relative;
+}
+.cs-nav-badge
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%,-50%);
+}
+.cs-nav-badge2
+{
+    position: absolute;
+    top:0;
+    right: 0;
+    border-radius: 50%;
+    align-items: center;
+    transform: translateY(-70%);
+   
+}
+.cs-nav-social{
+    gap:20px;
+}
+.cs-nav-social a{
+    color:black;
+    font-size:20px;
+    transition:0.3s;
+}
+.cs-nav-social a:hover{
+    color:var(--base-red);
+}
+.cs-navbar-copy{
+    display:none;
+}
+@media(max-width:768px){
+    .cs-navbar-copy{
+        display:flex;
+    }
+    .cs-navbar .cs-nav-social{
+        display: none !important;
+    }
+    .cs-navbar .navbar-brand{
+        display: none !important;
+    }
+    .cs-navbar{
+        justify-content: flex-end !important;
+    }
+    .cs-navbar .navbar-toggler{
+        border:1px solid white;
+        font-size:1.2em;
+        display:flex;
+        align-items: center;
+    }
+    .cs-navbar .navbar-toggler:focus{
+        outline:none;
+        box-shadow:none;
+    }
+    
+}
+.header-bottom
+ {
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+ }
+ .header-bottom p{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+ }
+ .header-bottom a{
+    color: var(--base);
+    font-weight: 500;
+    font-size: 16px;
+ }
+ .header{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.iframe-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.form-group textarea{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.form-control{
+    height: 48px;
+    margin-bottom: 30px;
+    padding: 10px;
+    gap: 20px;
+    border: 1px solid black;
+}
+form{
+    width: 50%;
+}
+.col-lg-3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.media-contact{
+    display: flex;
+    align-items: center;
+}
+.c-icon span i {
+    margin-right: 10px;
+    font-size: 16px;
+}
+.text3{
+    font-size: 16px;
+}
+
