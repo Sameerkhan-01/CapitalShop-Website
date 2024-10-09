@@ -11,9 +11,9 @@
 .loginform
 {
     width: 100%;
-    max-width: 500px;
+    max-width: 700px;
     box-sizing: border-box;
-    /* border: 2px solid black; */
+    border: 1px solid gray;
     padding: 20px;
     position: absolute;
     top: 50%;
@@ -21,6 +21,9 @@
     transform: translate(-50%,-50%);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    border: 1px solid white;
+    padding: 30px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 .login-head span
 {
