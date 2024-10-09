@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +12,9 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="Styles/contact.css">
 </head>
+
 <body>
     <div class="container justify-content-center flex-column">
         <div class="navbar cs-navbar-copy">
@@ -36,7 +38,7 @@
                     </a>
                 </div>
             </div>
-    
+
         </div>
         <div class="cs-navbar navbar navbar-expand-md pt-3 pb-3">
             <div class="navbar-brand">
@@ -66,7 +68,7 @@
                     <div class="nav-item"><a href="#" class="nav-link">Contact</a></div>
                 </div>
             </div>
-    
+
             <div class="cs-nav-social d-flex justify-content-center">
                 <div class="social-link cs-rel ">
                     <a href="">
@@ -109,62 +111,104 @@
         <div class="iframe-container">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387198.06963149045!2d-74.60356651051723!3d40.69632978678025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1728303832190!5m2!1sen!2sin"
-                width="1000" height="450" style="border:1px solid black;" allowfullscreen="" loading="lazy"
+                width="1200" height="450" style="border:1px solid black;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
     </div>
 
     <div class="container-fluid">
-            <div class="text-area">
-                <h3>Get in Touch</h3>
+        <div class="row">
+            <h3>Get in Touch</h3>
+        </div>
+        <div class="user-info">
+            <div>
+                <textarea rows="6" placeholder="Enter Message"></textarea>
             </div>
-            <form>
-                <div class="form-group">
-                    <textarea rows="5" cols="100"  placeholder="Enter Message"></textarea>
-                </div>
-                <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Enter your name">
-                        <input type="email" class="form-control" placeholder="Enter email address">
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control"  placeholder="Enter Subject">
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-danger">SEND</button>
-                </div>
-            </form>
-        <div class="col-lg-3 ">
-            <div class="media-contact">
-                <div class="c-icon">
-                    <span><i class="fa-solid fa-house"></i></span>
-                </div>
-                <div class="text3">
-                    <h4>Buttonwood, California.</h4>
-                    <p>Rosemead, CA 91770</p>
-                </div>
+            <div>
+                <input class="input-text" type="text" placeholder="Enter a Name">
+                <input class="input-text" type="email" placeholder="Enter a Email">
             </div>
-            <div class="media-contact">
-                <div class="c-icon">
-                    <span><i class="fa-solid fa-mobile-screen-button"></i></span>
-                </div>
-                <div class="text3">
-                    <h4>+1 253 565 2365</h4>
-                    <p>Mon to Fri 9am to 6pm</p>
-                </div>
+            <div>
+                <input class="input-text" type="text" placeholder="Enter a Subject">
             </div>
-            <div class="media-contact">
-                <div class="c-icon">
-                        <span><i class="fa-regular fa-envelope"></i></span>
-                </div>
-                <div class="text3">
-                    <h4>support@colorlib.com</h4>
-                    <p>Send us your query anytime!</p>
-                </div>
+            <div>
+                <button class="btn btn-danger">Send</button>
             </div>
         </div>
-
     </div>
 
+    <!-- Subscribe section -->
+    <div class="container-fluid footer">
+        <div class="sub mt-5 mb-5  col-lg-3 col-md-6 d-flex flex-column ">
+            <h3>Subscribe Newsletter</h3>
+            <p>Subscribe newsletter to get 5% on all products.</p>
+        </div>
+        <div class="email-input mt-5 mb-5  col-lg-5 col-md-6 ">
+            <input class="email-info" type="email" placeholder="Enter your email">
+            <button class="btn btn-danger btn-lg">Subscribe</button>
+        </div>
+        <div class="media">
+
+            <div class="icons mt-5 mb-5 col-lg-1 col-md-6 ">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="black">
+        <div class="container footers justify-content-between">
+            <div class="brand">
+                <img src="Images/logo2_footer.png.webp" alt="Capital Shop Logo" class="img-fluid">
+            </div>
+            <div class="footer-title">
+                <h4>Shop Men</h4>
+                <ul>
+                    <li><a href="#">Clothing Fashion</a></li>
+                    <li><a href="#">Winter</a></li>
+                    <li><a href="#">Summer</a></li>
+                    <li><a href="#">Formal</a></li>
+                    <li><a href="#">Casual</a></li>
+                </ul>
+            </div>
+            <div class="footer-title">
+                <h4>Shop Women</h4>
+                <ul>
+                    <li><a href="#">Clothing Fashion</a></li>
+                    <li><a href="#">Winter</a></li>
+                    <li><a href="#">Summer</a></li>
+                    <li><a href="#">Formal</a></li>
+                    <li><a href="#">Casual</a></li>
+                </ul>
+            </div>
+            <div class="footer-title">
+                <h4>Baby Collection</h4>
+                <ul>
+                    <li><a href="#">Clothing Fashion</a></li>
+                    <li><a href="#">Winter</a></li>
+                    <li><a href="#">Summer</a></li>
+                    <li><a href="#">Formal</a></li>
+                    <li><a href="#">Casual</a></li>
+                </ul>
+            </div>
+            <div class="footer-title">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Track Your Order</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Carrier</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
 </body>
+
 </html>

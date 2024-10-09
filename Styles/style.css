@@ -120,43 +120,6 @@ h1,h2,h3,h4,h5,h6,p,div,body
 {
     background-color: rgba(0, 0, 0, 0.4);
 }
-.footer
-{
-    background-color: #171613;
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 20px;
-}
-.footer p{
-    color: var(--base);
-}
-input[type="email"]
-{
-    font-size: 16px;
-    padding: 9px;
-    border: none;
-    width: 70%;
-    height: 45px;
-}
-
-.icons
-{
-    color: #F3EAD8;
-    display: flex;
-    gap: 20px;
-}
-
-.media{
-    font-size: 25px;
-}
-.icons i:hover{
-    font-size: 24px;
-    justify-content: flex-end;
-    transform: rotate(360deg);    
-}
-
 
 .cs-rel
 {
@@ -243,11 +206,7 @@ input[type="email"]
      color: black;
 }
 
- /* .carousel-caption{
-    width: 80%;
-    text-align: left;
-    top: 0%;
- } */
+/* header */
  .header-bottom
  {
     background-color: black;
@@ -266,12 +225,46 @@ input[type="email"]
     font-weight: 500;
     font-size: 16px;
  }
- /* .footers
- {
 
-    color: #BBB9B5;
-    
- } */
+ /* Subscribe section */
+ .footer
+{
+    background-color: #171613;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.footer p{
+    color: var(--base);
+}
+.email-info
+{
+    font-size: 16px;
+    padding: 9px;
+    border: none;
+    width: 70%;
+    height: 45px;
+}
+
+.icons
+{
+    color: #F3EAD8;
+    display: flex;
+    gap: 20px;
+}
+
+.media{
+    font-size: 25px;
+}
+.icons i:hover{
+    font-size: 24px;
+    justify-content: flex-end;
+    transform: rotate(360deg);    
+}
+
+ /* Footer */
  .footer-title ul {
     list-style: none;
     color: #BBB9B5;
@@ -301,4 +294,48 @@ input[type="email"]
     top: 20%;
     right: 30%;
     transform: translateX(50%);
+}
+.nav-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* Middle navbaar */
+.navbaar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.navbaar li {
+    list-style: none;
+    display: inline-block;
+}
+.navbaar .logo h3{
+    font-size: 34px;
+}
+.navbaar li a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 20px;
+    position: relative;
+}
+.navbaar ul li a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color: red;
+  left: 0;
+  bottom: 0;
+  transition: width 0.3s ease-in-out;
+}
+.navbaar ul li a:hover::after {
+  width: 100%;
 }
