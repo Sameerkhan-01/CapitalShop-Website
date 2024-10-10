@@ -339,3 +339,17 @@ h1,h2,h3,h4,h5,h6,p,div,body
 .navbaar ul li a:hover::after {
   width: 100%;
 }
+.single-blog{
+    margin-right: 20px;
+}
+.blog-caption span {
+    margin-top: 11px;
+   margin-bottom: 11px;
+}
+.blog-caption h5 a{
+    text-decoration: none;
+    color: black;
+}
+.blog-caption span{
+    color: #74706B;
+}
