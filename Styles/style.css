@@ -353,3 +353,13 @@ h1,h2,h3,h4,h5,h6,p,div,body
 .blog-caption span{
     color: #74706B;
 }
+
+/* You may like this slider */
+.slider2{
+    padding-bottom: 100px;
+}
+.container h2{
+    padding-top: 100px;
+    font-weight: 500;
+    line-height: 1.2rem;
+}
