@@ -247,7 +247,10 @@ h1,h2,h3,h4,h5,h6,p,div,body
     width: 70%;
     height: 45px;
 }
-
+.email-input  input[type="email"]{
+    height: 45px;
+    width: 50%;
+}
 .icons
 {
     color: #F3EAD8;
@@ -300,6 +303,7 @@ h1,h2,h3,h4,h5,h6,p,div,body
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 /* Middle navbaar */
 .navbaar {
     display: flex;
@@ -362,4 +366,18 @@ h1,h2,h3,h4,h5,h6,p,div,body
     padding-top: 100px;
     font-weight: 500;
     line-height: 1.2rem;
+}
+.slider-caption2 h3 {
+    color: #292621;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 6px;
+    margin-top: 10px;
+}
+.price span span{
+    display: inline-block;
+    text-decoration: line-through;
+}
+.price{
+    text-align: center;
 }
